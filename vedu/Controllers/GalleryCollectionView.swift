@@ -40,11 +40,10 @@ class GalleryCollectionView: UICollectionView, UICollectionViewDelegate, UIColle
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-let cell = dequeueReusableCell(withReuseIdentifier: GalleryCollectionViewCell.reuseId, for: indexPath) as! GalleryCollectionViewCell
+        let cell = dequeueReusableCell(withReuseIdentifier: GalleryCollectionViewCell.reuseId, for: indexPath) as! GalleryCollectionViewCell
         cell.mainImageView.image = cells[indexPath.row].mainImage
-        cell.nameLabel.text = cells[indexPath.row].sushiName
-        cell.smallDescriptionLabel.text = cells[indexPath.row].smallDescription
-        //cell.costLabel.text = "$\(cells[indexPath.row].cost)"
+        cell.nameLabel.text = cells[indexPath.row].name
+        cell.smallDescriptionLabel.text = cells[indexPath.row].description
         return cell
     }
     

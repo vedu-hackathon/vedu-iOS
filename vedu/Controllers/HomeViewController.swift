@@ -27,7 +27,7 @@ class HomeViewController: UIViewController {
             galleryCollectionView.topAnchor.constraint(equalTo: statBtn.bottomAnchor, constant: 10).isActive = true
             galleryCollectionView.heightAnchor.constraint(equalToConstant: 350).isActive = true
                    
-            galleryCollectionView.set(cells: DiplomaModel.fetchSushi())
+            galleryCollectionView.set(cells: DiplomaModel.fetchDiploma())
         }
 
         @IBAction func didTapMenu(_ sender: UIBarButtonItem) {

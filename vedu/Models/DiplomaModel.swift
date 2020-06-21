@@ -12,49 +12,30 @@ import UIKit
 
 struct DiplomaModel {
     var mainImage: UIImage
-    var sushiName: String
-    var smallDescription: String
-    var cost: Int
+    var name: String
+    var description: String
     
-    static func fetchSushi() -> [DiplomaModel] {
+    static func fetchDiploma() -> [DiplomaModel] {
         let firstItem = DiplomaModel(mainImage: UIImage(named: "diploma")!,
-                               sushiName: "Jengibre",
-                               smallDescription: "Original Japanese",
-                               cost: 8)
+                               name: "Диплом",
+                               description: "Бакалавр")
         let secondItem = DiplomaModel(mainImage: UIImage(named: "diploma")!,
-                                    sushiName: "Caviar",
-                                    smallDescription: "Original Japanese",
-                                    cost: 10)
+                                    name: "Диплом",
+                                    description: "Магистр")
         let thirdItem = DiplomaModel(mainImage: UIImage(named: "diploma")!,
-                                   sushiName: "Camaron",
-                                   smallDescription: "Original Japanese",
-                                   cost: 7)
+                                   name: "Сертификат",
+                                   description: "IT")
         
         let fouthItem = DiplomaModel(mainImage: UIImage(named: "diploma")!,
-                                   sushiName: "Salmon",
-                                   smallDescription: "Original Japanese",
-                                   cost: 12)
+                                   name: "Сертификат",
+                                   description: "AR ang VR")
         
         let five = DiplomaModel(mainImage: UIImage(named: "diploma")!,
-                                   sushiName: "Jengibre",
-                                   smallDescription: "Original Japanese",
-                                   cost: 8)
-        let six = DiplomaModel(mainImage: UIImage(named: "diploma")!,
-                                    sushiName: "Caviar",
-                                    smallDescription: "Original Japanese",
-                                    cost: 10)
-        let seven = DiplomaModel(mainImage: UIImage(named: "diploma")!,
-                                   sushiName: "Camaron",
-                                   smallDescription: "Original Japanese",
-                                   cost: 7)
-        
-        let eight = DiplomaModel(mainImage: UIImage(named: "diploma")!,
-                                   sushiName: "Salmon",
-                                   smallDescription: "Original Japanese",
-                                   cost: 12)
+                                   name: "Сертификат",
+                                   description: "Цифрофой прорыв")
         
         
-        return [firstItem, secondItem, thirdItem, fouthItem, five, six, seven, eight]
+        return [firstItem, secondItem, thirdItem, fouthItem, five]
     }
 }
 
