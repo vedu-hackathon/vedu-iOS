@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44588940249E184000D291C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4458893F249E184000D291C2 /* AppDelegate.swift */; };
+		44588942249E184000D291C2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44588941249E184000D291C2 /* SceneDelegate.swift */; };
+		44588944249E184000D291C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44588943249E184000D291C2 /* ViewController.swift */; };
+		44588947249E184000D291C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44588945249E184000D291C2 /* Main.storyboard */; };
+		4458894C249E184800D291C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4458894A249E184800D291C2 /* LaunchScreen.storyboard */; };
+		44588954249E1C0B00D291C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44588953249E1C0B00D291C2 /* Assets.xcassets */; };
+		44CB2C08249E4B5F00A8B2D0 /* GalleryCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CB2C07249E4B5E00A8B2D0 /* GalleryCollectionView.swift */; };
+		44CB2C0A249E4CE000A8B2D0 /* GalleryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CB2C09249E4CE000A8B2D0 /* GalleryCollectionViewCell.swift */; };
+		44CB2C0C249E4D0500A8B2D0 /* DiplomaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CB2C0B249E4D0500A8B2D0 /* DiplomaModel.swift */; };
+		F2A06B155F520CC827BF6D7D /* Pods_vedu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C08AEFFB38D7704F41D694FB /* Pods_vedu.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4458893C249E184000D291C2 /* vedu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vedu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4458893F249E184000D291C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		44588941249E184000D291C2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		44588943249E184000D291C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		44588946249E184000D291C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4458894B249E184800D291C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4458894D249E184800D291C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44588953249E1C0B00D291C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44CB2C07249E4B5E00A8B2D0 /* GalleryCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCollectionView.swift; sourceTree = "<group>"; };
+		44CB2C09249E4CE000A8B2D0 /* GalleryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCollectionViewCell.swift; sourceTree = "<group>"; };
+		44CB2C0B249E4D0500A8B2D0 /* DiplomaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiplomaModel.swift; sourceTree = "<group>"; };
+		67321A9E32EF901182A19645 /* Pods-vedu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vedu.release.xcconfig"; path = "Target Support Files/Pods-vedu/Pods-vedu.release.xcconfig"; sourceTree = "<group>"; };
+		882B1457A914C1FCF2DA4A96 /* Pods-vedu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vedu.debug.xcconfig"; path = "Target Support Files/Pods-vedu/Pods-vedu.debug.xcconfig"; sourceTree = "<group>"; };
+		C08AEFFB38D7704F41D694FB /* Pods_vedu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vedu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44588939249E184000D291C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2A06B155F520CC827BF6D7D /* Pods_vedu.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17994FD1ABD3EFB71ABCDFE2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				882B1457A914C1FCF2DA4A96 /* Pods-vedu.debug.xcconfig */,
+				67321A9E32EF901182A19645 /* Pods-vedu.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		44588933249E184000D291C2 = {
+			isa = PBXGroup;
+			children = (
+				4458893E249E184000D291C2 /* vedu */,
+				4458893D249E184000D291C2 /* Products */,
+				17994FD1ABD3EFB71ABCDFE2 /* Pods */,
+				58ECDEF4B26C6BEBB471F80D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4458893D249E184000D291C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4458893C249E184000D291C2 /* vedu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4458893E249E184000D291C2 /* vedu */ = {
+			isa = PBXGroup;
+			children = (
+				4458893F249E184000D291C2 /* AppDelegate.swift */,
+				44588941249E184000D291C2 /* SceneDelegate.swift */,
+				44FB1599249EC3FA00EFD7A0 /* Profile */,
+				44FB15A1249EC46700EFD7A0 /* Model */,
+				44588945249E184000D291C2 /* Main.storyboard */,
+				44588953249E1C0B00D291C2 /* Assets.xcassets */,
+				4458894A249E184800D291C2 /* LaunchScreen.storyboard */,
+				4458894D249E184800D291C2 /* Info.plist */,
+			);
+			path = vedu;
+			sourceTree = "<group>";
+		};
+		44FB1599249EC3FA00EFD7A0 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				44588943249E184000D291C2 /* ViewController.swift */,
+				44CB2C07249E4B5E00A8B2D0 /* GalleryCollectionView.swift */,
+				44CB2C09249E4CE000A8B2D0 /* GalleryCollectionViewCell.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		44FB15A1249EC46700EFD7A0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				44CB2C0B249E4D0500A8B2D0 /* DiplomaModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		58ECDEF4B26C6BEBB471F80D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C08AEFFB38D7704F41D694FB /* Pods_vedu.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4458893B249E184000D291C2 /* vedu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44588950249E184800D291C2 /* Build configuration list for PBXNativeTarget "vedu" */;
+			buildPhases = (
+				3B976F45A9D8D5DDE8F9B32D /* [CP] Check Pods Manifest.lock */,
+				44588938249E184000D291C2 /* Sources */,
+				44588939249E184000D291C2 /* Frameworks */,
+				4458893A249E184000D291C2 /* Resources */,
+				83C788968C40805A32C53734 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = vedu;
+			productName = vedu;
+			productReference = 4458893C249E184000D291C2 /* vedu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44588934249E184000D291C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Роман Лабунский";
+				TargetAttributes = {
+					4458893B249E184000D291C2 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 44588937249E184000D291C2 /* Build configuration list for PBXProject "vedu" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44588933249E184000D291C2;
+			productRefGroup = 4458893D249E184000D291C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4458893B249E184000D291C2 /* vedu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4458893A249E184000D291C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4458894C249E184800D291C2 /* LaunchScreen.storyboard in Resources */,
+				44588954249E1C0B00D291C2 /* Assets.xcassets in Resources */,
+				44588947249E184000D291C2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B976F45A9D8D5DDE8F9B32D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-vedu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83C788968C40805A32C53734 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-vedu/Pods-vedu-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-vedu/Pods-vedu-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-vedu/Pods-vedu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44588938249E184000D291C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44CB2C0C249E4D0500A8B2D0 /* DiplomaModel.swift in Sources */,
+				44CB2C08249E4B5F00A8B2D0 /* GalleryCollectionView.swift in Sources */,
+				44CB2C0A249E4CE000A8B2D0 /* GalleryCollectionViewCell.swift in Sources */,
+				44588944249E184000D291C2 /* ViewController.swift in Sources */,
+				44588940249E184000D291C2 /* AppDelegate.swift in Sources */,
+				44588942249E184000D291C2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		44588945249E184000D291C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44588946249E184000D291C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4458894A249E184800D291C2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4458894B249E184800D291C2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4458894E249E184800D291C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4458894F249E184800D291C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44588951249E184800D291C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 882B1457A914C1FCF2DA4A96 /* Pods-vedu.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 777577VLG8;
+				INFOPLIST_FILE = vedu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Roman-lab.vedu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44588952249E184800D291C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67321A9E32EF901182A19645 /* Pods-vedu.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 777577VLG8;
+				INFOPLIST_FILE = vedu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Roman-lab.vedu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44588937249E184000D291C2 /* Build configuration list for PBXProject "vedu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4458894E249E184800D291C2 /* Debug */,
+				4458894F249E184800D291C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44588950249E184800D291C2 /* Build configuration list for PBXNativeTarget "vedu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44588951249E184800D291C2 /* Debug */,
+				44588952249E184800D291C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44588934249E184000D291C2 /* Project object */;
+}
